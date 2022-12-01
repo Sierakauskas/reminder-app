@@ -13,5 +13,5 @@ import lombok.NoArgsConstructor;
 public class AddressDto {
     private Long id;
     private String name;
-    private String test;
+    private String testtest;
 }
