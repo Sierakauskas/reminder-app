@@ -1,10 +1,9 @@
 package lt.reminder.app.bl.repo;
 
+import lt.reminder.app.model.domain.EldershipEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import lt.reminder.app.model.entity.AddressEntity;
-
 @Repository
-public interface AddressRepository extends JpaRepository<AddressEntity, Long> {
+public interface EldershipRepository extends JpaRepository<EldershipEntity, Long> {
 }
